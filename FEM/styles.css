@@ -1,0 +1,59 @@
+.header-title {
+    color: rgba(40, 40, 119, 0.925);
+    font-family: 'Bangers';
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 0.5px;
+}
+.flex-container {
+    display: flex;
+    border: 2px solid rgba(40, 40, 119, 0.925);
+    text-align: center;
+    width: 100%;
+}
+.box-1 {
+    width: 25%;
+    border: 1px solid rgba(40, 40, 119, 0.925);
+}
+.box-2 {
+    width: 50%;
+    border: 1px solid rgba(40, 40, 119, 0.925);
+    padding-top: 4px;
+}
+.box-3 {
+    width: 25%;
+    border: 1px solid rgba(40, 40, 119, 0.925);
+}
+.story-quarter {
+    color: rgba(40, 40, 119, 0.925);
+    font-family: "Futura";
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-top: 2px;
+    padding-top: 4px;  
+}
+.article-text {
+    color: rgba(40, 40, 119, 0.925);
+    font-family: "Futura";
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 6px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.advice {
+    list-style-type: circle;
+    color: rgba(40, 40, 119, 0.925);
+    font-family: "Futura";
+    text-align: left;
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+img{
+    height: 400px;
+    width: 400px;
+    padding-bottom: 4px;
+}
