@@ -7,19 +7,18 @@
     margin-bottom: 0.5px;
 }
 .flex-container {
-    display: flex;
     border: 2px solid rgba(40, 40, 119, 0.925);
     text-align: center;
     width: 100%;
+    display: flex;
 }
 .box-1 {
     width: 25%;
     border: 1px solid rgba(40, 40, 119, 0.925);
 }
 .box-2 {
-    width: 50%;
-    border: 1px solid rgba(40, 40, 119, 0.925);
     padding-top: 4px;
+    width: 50%;
 }
 .box-3 {
     width: 25%;
@@ -45,15 +44,50 @@
     margin-bottom: 2px;
 }
 .advice {
-    list-style-type: circle;
     color: rgba(40, 40, 119, 0.925);
+    list-style-type: circle;
     font-family: "Futura";
     text-align: left;
     margin-top:2px;
-    margin-bottom: 2px;
+    margin-bottom: 6px;
+}
+.column {
+    flex-direction: column;
+    text-align: left;
+}
+.section-link {
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 25px;
+    font-weight: bold;
+    font-family: "Futura";
+    color: #666;
+}
+.section-link:hover {
+    text-decoration: underline;
+}
+.jeep{
+    border: 1px solid rgba(40, 40, 119, 0.925);
+    width: 33.33%;
 }
 img{
     height: 400px;
     width: 400px;
     padding-bottom: 4px;
+}
+.legos{
+    background-color: #ffeaa7;
+    width: 100%;
+}
+.pawpatrol{
+    background-color: #81ecec;
+    width: 100%;
+}
+.climbing{
+    background-color: #74b9ff;
+    width: 100%;
+}
+.sports{
+    background-color: #a29bfe;
+    width: 100%;
 }
